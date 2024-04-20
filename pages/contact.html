@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="We're dedicated to bringing you the finest selection of products that cater to your needs and desires. From trendy fashion accessories to state-of-the-art gadgets, we have something for everyone. Explore our extensive range of high-quality products, carefully curated to ensure excellence in both style and functionality. Whether you're looking to upgrade your wardrobe, accessorize your home, or find the perfect gift for a loved one, you'll discover a world of possibilities right here.With our user-friendly interface and secure payment options, shopping with us is not only convenient but also a delightful experience. Plus, our dedicated customer support team is always ready to assist you every step of the way.Experience the joy of shopping online like never before at GizmoGalore. Start browsing now and indulge in a seamless shopping experience that exceeds your expectations!">
+    <meta name="keywords"
+        content="My Website, My Ecommerce Website, An Ecommerce Website, Ecommerce Website, GizmoGalore, Ecommerce, Website,Your Ultimate Destination for Quality Products!">
+    <meta name="author" content="Nethmi Thulara Ilangamge">
+    <title>GizmoGalore</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">GizmoGalore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                            <li><a class="dropdown-item" href="electronics.html">Electronics</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sign_up.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4 contact">
+        <h1>Contact Us</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="heading">Get in Touch</h2>
+                <p id="subtitle">If you have any questions, feedback, or inquiries, please don't hesitate to reach out to us. We're
+                    here to help!</p>
+                <ul id="details">
+                    <li><strong>Email:</strong> info@gizmogalore.com</li>
+                    <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                    <li><strong>Address:</strong> 123 ABC Street, New York, USA, 1100</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="heading">Send Us a Message</h2>
+                <form class="contact-form" id="contact-form" onsubmit="return handleSubmit()">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" rows="5"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col map">
+                <h2 class="heading">Find Us on the Map</h2>
+                <!-- Embed a map showing your location -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.34501104037!2d-74.1197633507452!3d40.6976637448907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1618621407324!5m2!1sen!2s"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div class="social-icons mt-3">
+                <a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fa fa-whatsapp"></i></a>
+                
+            </div>
+            <p class="mt-3">© 2024 GizmoGalore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>

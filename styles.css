@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sedan", serif;
+}
+
+/* About Us Section */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about li {
+    margin-bottom: 10px;
+}
+
+/* Team Members Section */
+.about ul.team-members {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about ul.team-members li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* What Sets Us Apart Section */
+.about ul.sets-us-apart {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about ul.sets-us-apart li {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.about ul.sets-us-apart li strong {
+    font-weight: bold;
+}
+
+/* Contact Us Section */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact hr {
+    border-color: #007bff;
+    margin-bottom: 30px;
+}
+
+.contact .row {
+    margin-bottom: 30px;
+}
+
+.contact .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact #subtitle {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact #details {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.contact #details li {
+    margin-bottom: 10px;
+}
+
+.contact .contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact .map .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact .map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Frequently Asked Questions Section */
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.faq h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq .card {
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.faq .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+.faq .card-header h2 {
+    margin: 0;
+}
+
+.faq .card-body {
+    padding: 15px;
+}
+
+.faq .btn-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.faq .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Collapse Animation */
+.faq .collapse {
+    transition: height 0.3s ease;
+}
+
+
+/* Special Offers / Promotions Section */
+.offers h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offers h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offers .card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offers .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.offers .card-body {
+    padding: 20px;
+}
+
+.offers .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.offers .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.promo-code,
+.discount,
+.validity,
+.terms {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Customer Reviews/Testimonials Section */
+.reviews h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.reviews .card-body {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.reviews .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.reviews .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.reviews .text-muted {
+    font-size: 0.9rem;
+}
+
+/* Terms and Conditions / Privacy Policy Section */
+.term h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.term h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.term p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.term ul {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* clothing section */
+.clothing {
+    padding: 30px 0;
+}
+
+.clothing .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.clothing .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.clothing .card-text {
+    color: #666;
+}
+
+.clothing .card-price {
+    font-size: 1.1rem;
+    color: #ff6600;
+    /* Orange color for price */
+    margin-bottom: 10px;
+}
+
+.clothing .btn-primary {
+    background-color: #ff6600;
+    /* Orange color for button background */
+    border-color: #ff6600;
+    /* Orange color for button border */
+}
+
+.clothing .btn-primary:hover {
+    background-color: #ff3300;
+    /* Darker orange color on hover */
+    border-color: #ff3300;
+    /* Darker orange color on hover */
+}
+
+/* electronics section */
+.electronics {
+    padding: 30px 0;
+}
+
+.electronics .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.electronics .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.electronics .card-text {
+    color: #666;
+}
+
+.electronics .card-price {
+    font-size: 1.1rem;
+    color: #ff6600;
+    /* Orange color for price */
+    margin-bottom: 10px;
+}
+
+.electronics .btn-primary {
+    background-color: #ff6600;
+    /* Orange color for button background */
+    border-color: #ff6600;
+    /* Orange color for button border */
+}
+
+.electronics .btn-primary:hover {
+    background-color: #ff3300;
+    /* Darker orange color on hover */
+    border-color: #ff3300;
+    /* Darker orange color on hover */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+}
+
+.social-icons {
+    margin-top: 20px;
+    /* Add some space between text and icons */
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    /* Add space between icons */
+    color: #fff;
+    /* Icon color */
+    font-size: 24px;
+    /* Icon size */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    /* Scale up the icon on hover */
+}
+
+/* Sign Up Form */
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.signup-form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.signup-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+/* Login Form */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.login-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .offers .card-img-top {
+        height: 150px;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+        /* Reduce space on smaller screens */
+    }
+}
